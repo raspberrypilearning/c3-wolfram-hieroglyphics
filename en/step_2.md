@@ -1,17 +1,24 @@
 ## Associating Hieroglyphs with Letters
 
-In order to represent English letters and sounds with hieroglyphs, we need to make an `Association`. An Association is a lot like a dictionary or a set of rules.   
+In order to represent English letters and sounds with hieroglyphs, we need to make an `Association`. An `Association` is a lot like a dictionary or a set of rules.   
 
 ```
-practiceAssociation = <|"a" -> 1, "b" -> 2, "c" -> 3|>
+practiceAssociation = <|"Mark" -> "English", "Rachel" -> "Science", "Aisha" -> "History", "Omar" -> "Art"|>
 ```
-In this example, the letters: "a", "b", "c", are the Keys, and the numbers: 1,2,3 are the Values. Each Key has a Value, and you can look up the Value for a specific Key. In this example, evaluating `practiceAssociation["b"]` gives the number 2.
 
-So let's make an Association for letters (the Keys) to hieroglyphs (the Values). Hieroglyphs represent sounds, so they're not exactly matched to English letters, but they're still fun to experiment with.
+In this example, the students: Mark, Rachel, Aisha, and Omar, are the `Keys`, and their favourite subjects: English, Science, History and Art, are the `Values`. Each `Key` has a `Value`, and you can look up the `Value` for a specific `Key`. In this example, evaluating `practiceAssociation["Rachel"]` gives the subject "Science".
+
+So let's make an `Association` for letters (the `Keys`) to hieroglyphs (the `Values`). Hieroglyphs represent sounds, so they're not exactly matched to English letters, but they're still fun to experiment with.
 
 --- task ---
 
-Import the images for the hieroglyphs representing the letters A to Z. Drag and drop or copy and paste the images into your notebook.
+Build an `Association` with the hieroglyphs. Give the `Association` the variable name `egypt`.
+
+An `Association` starts with `<|` and ends with `|>`. Keys are associated with Values using `->`, and separated with a `,`. Go back to the `practiceassociation` at the start of this step if you need an example.
+
+![build an association](images/association.png)
+
+Here are the images for the hieroglyphs, in alphabetical order from A to Z. Copy and paste them one at a time into your notebook, building the `Association` one `Value` to `Key` combination at a time.
 
 ![a](images/a.png)
 ![b](images/b.png)
@@ -39,14 +46,5 @@ Import the images for the hieroglyphs representing the letters A to Z. Drag and 
 ![x](images/x.png)
 ![y](images/y.png)
 ![z](images/z.png)
-
---- /task ---
---- task ---
-
-Build an `Association` with the hieroglyphs. Give the `Association` the variable name `egypt`.
-
-An `Association` starts with `<|` and ends with `|>`. Keys are associated with Values using `<-`, and separated with a `,`. Go back to the `practiceassociation` at the start of this step if you need an example.
-
-![build an association](images/association.png)
 
 --- /task ---
