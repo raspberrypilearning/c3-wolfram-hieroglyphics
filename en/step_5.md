@@ -7,7 +7,7 @@ Let's make a `Button` to empty the list `newWord`. To empty the list, we can set
 Create a `Button` which sets `newWord` to be an empty list.
 
 ```
-Button["Clear", word = {}]
+Button["Clear", newWord = {}]
 ```
 --- /task ---
 
@@ -19,6 +19,6 @@ To delete the first two elements of the list, we would `Drop[{a, b, c, d, e, f},
 Use the function `Drop` to create a `Button` which deletes the last hieroglyph in `newWord`.
 
 ```
-Button["Delete", word = Drop[word, -1]]
+Button["Delete", newWord = Drop[newWord, -1]]
 ```
  --- /task ---

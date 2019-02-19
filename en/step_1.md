@@ -15,12 +15,12 @@ title: What you will need
 ---
 ### Hardware
 
-+ Either a computer or a Raspberry Pi
++ Either a desktop computer, laptop, or a Raspberry Pi
 
 ### Software
 
 + Wolfram Language
-+ This project can be completed in a web browser using [wolframcloud.com](http://lab.wolframcloud.com/app/). Log in, and click Create New Notebook.
++ This project cannot be completed in a web browser
 
 --- /collapse ---
 
@@ -34,7 +34,7 @@ title: What you will learn
 + Rearranging lists
 + Creating associations between objects
 
-If you have never used the Wolfram Language before, follow [this guide](https://projects.raspberrypi.org/en/projects/getting-started-with-mathematica). You'll need to look at Starting Mathematica and Programming in Mathematica. If you are using the web browser version of Wolfram, you only need to look at Programming in Mathematica.
+If you have never used the Wolfram Language before, follow [this guide](https://projects.raspberrypi.org/en/projects/getting-started-with-mathematica). You'll need to look at Starting Mathematica and Programming in Mathematica.
 
 --- /collapse ---
 

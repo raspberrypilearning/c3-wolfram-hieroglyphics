@@ -36,9 +36,11 @@ We can do this using `Dynamic`. `Dynamic` displays the dynamically updated value
 In order to improve the look of the output, we can get rid of the `{}` and `,` in the list `newWord`, and in the `Table` of buttons, by putting the output into a `Row`.
 
 --- task ---
-Make `newWord` print as a row using `Row`.
-Make the `Table` of buttons print as a row using `Row`.
-Use `Dynamic` to replace the keyboard output each time you press a button. 
+
++ Make `newWord` print as a row using `Row`.
++ Make the `Table` of buttons print as a row using `Row`.
++ Use `Dynamic` to replace the keyboard output each time you press a button. 
++ Replace your code from the previous task with your new code.
 
 ```
 newWord = {};

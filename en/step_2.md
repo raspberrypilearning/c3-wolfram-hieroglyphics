@@ -6,7 +6,9 @@ In order to represent English letters and sounds with hieroglyphs, we need to ma
 practiceAssociation = <|"Mark" -> "English", "Rachel" -> "Science", "Aisha" -> "History", "Omar" -> "Art"|>
 ```
 
-In this example, the students: Mark, Rachel, Aisha, and Omar, are the `Keys`, and their favourite subjects: English, Science, History and Art, are the `Values`. Each `Key` has a `Value`, and you can look up the `Value` for a specific `Key`. In this example, evaluating `practiceAssociation["Rachel"]` gives the subject "Science".
+In this example, the students: Mark, Rachel, Aisha, and Omar, are the `Keys`, and their favourite subjects: English, Science, History and Art, are the `Values`. Each `Key` has a `Value`, and you can look up the `Value` for a specific `Key`.
+
+In this example, evaluating `practiceAssociation["Rachel"]` gives the subject "Science".
 
 So let's make an `Association` for letters (the `Keys`) to hieroglyphs (the `Values`). Hieroglyphs represent sounds, so they're not exactly matched to English letters, but they're still fun to experiment with.
 

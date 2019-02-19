@@ -34,8 +34,9 @@ In our `Grid`, the first two rows have one item, and the third row has two items
 We can also add a row at the top of the `Grid` with a title. We can use `Text` and `Style` to make the title look like text and print in a large font size.
 
 ---task---
-Use `SpanFromLeft` to shift the Clear and Delete buttons to the left.
-Add a title to the top of the `Grid`.
++ Use `SpanFromLeft` to shift the Clear and Delete buttons to the left.
++ Add a title to the top of the `Grid`.
++ You can replace all the code you've written (except for the association `egypt`) with your new code.
 
 ```
 newWord = {};
