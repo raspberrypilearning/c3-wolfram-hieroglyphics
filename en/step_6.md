@@ -1,16 +1,40 @@
 ## Improve the Interface
 
-We can construct this using `Grid`.
-Let's look at an example of `Grid`
+We can construct a nice keyboard layout for our project using `Grid`. Here's an example of `Grid`:
 
 ![Grid](images/Grid.png)
 
 `Grid` is made up of a list of lists, where each list becomes a row in the grid.
 
---- task ---
+--- task --- 
 Make a `Grid` with three rows. The first row should be the `Dynamic` output of `newWord`. The second row should be the `Table` of buttons which make the keyboard. The third row should be the Clear and Delete buttons we made in the previous step.
 
 Draw a box around the `Grid` by setting `Frame` to `True`.
+
+--- hints ---
+--- hint ---
+The basic structure of a Grid with a frame looks like this, with the list of lists defining the rows of the grid.
+```
+Grid[{{},{},{}}, Frame -> True]
+```
+--- /hint ---
+--- hint ---
+The code you need for the rows is the following:
+
+```
+Dynamic[Row[newWord]]
+```
+
+```
+Row[Table[With[{i = i}, Button[i, AppendTo[newWord, egypt[[Key[i]]]]]], {i, Keys[egypt]}]]
+```
+
+```
+Row[Table[With[{i = i}, Button[i, AppendTo[newWord, egypt[[Key[i]]]]]], {i, Keys[egypt]}]]
+```
+--- /hint ---
+--- hint ---
+The finished grid code looks like this:
 
 ```
 newWord = {};
@@ -21,6 +45,9 @@ Grid[{
   }, Frame -> True]
 
 ```
+--- /hint ---
+--- /hints ---
+
 ---/task ---
 
 Our keyboard is now functional! Let's make it look more attractive and more useful by adding a title, and improving the placement of the Clear and Delete buttons.

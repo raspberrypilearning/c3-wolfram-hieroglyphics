@@ -1,5 +1,9 @@
 ## Associating Hieroglyphs with Letters
 
+--- task ---
+If you have never used the Wolfram Language before, follow [this guide](https://projects.raspberrypi.org/en/projects/getting-started-with-mathematica) to get started and learn to use the tool. You'll need to look at **Starting Mathematica** and **Programming in Mathematica**.
+--- /task ---
+
 In order to represent English letters and sounds with hieroglyphs, we need to make an `Association`. An `Association` is a lot like a dictionary or a set of rules.   
 
 ```
@@ -10,43 +14,12 @@ In this example, the students: Mark, Rachel, Aisha, and Omar, are the `Keys`, an
 
 In this example, evaluating `practiceAssociation["Rachel"]` gives the subject "Science".
 
-So let's make an `Association` for letters (the `Keys`) to hieroglyphs (the `Values`). Hieroglyphs represent sounds, so they're not exactly matched to English letters, but they're still fun to experiment with.
+You need to start with an `Association` for letters (the `Keys`) to hieroglyphs (the `Values`). Hieroglyphs represent sounds, so they're not exactly matched to English letters, but they're still fun to experiment with. Copying and pasting the images 26 times to create that association might take a little long though, so we've created a starter file you can use.
 
 --- task ---
 
-Build an `Association` with the hieroglyphs. Give the `Association` the variable name `egypt`.
+Download the [starter file](#) and open it in Mathematica.
 
-An `Association` starts with `<|` and ends with `|>`. Keys are associated with Values using `->`, and separated with a `,`. Go back to the `practiceassociation` at the start of this step if you need an example.
-
-![build an association](images/association.png)
-
-Here are the images for the hieroglyphs, in alphabetical order from A to Z. Copy and paste them one at a time into your notebook, building the `Association` one `Value` to `Key` combination at a time.
-
-![a](images/a.png)
-![b](images/b.png)
-![c](images/c.png)
-![d](images/d.png)
-![e](images/e.png)
-![f](images/f.png)
-![g](images/g.png)
-![h](images/h.png)
-![i](images/i.png)
-![j](images/j.png)
-![k](images/k.png)
-![l](images/l.png)
-![m](images/m.png)
-![n](images/n.png)
-![o](images/o.png)
-![p](images/p.png)
-![q](images/q.png)
-![r](images/r.png)
-![s](images/s.png)
-![t](images/t.png)
-![u](images/u.png)
-![v](images/v.png)
-![w](images/w.png)
-![x](images/x.png)
-![y](images/y.png)
-![z](images/z.png)
+![An association between hieroglyph images and the latin alphabet](images/association.png)
 
 --- /task ---

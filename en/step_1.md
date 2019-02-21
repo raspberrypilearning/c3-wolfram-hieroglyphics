@@ -15,12 +15,11 @@ title: What you will need
 ---
 ### Hardware
 
-+ Either a desktop computer, laptop, or a Raspberry Pi
++ A computer: desktop, laptop, or a Raspberry Pi
 
 ### Software
 
-+ Wolfram Language
-+ This project cannot be completed in a web browser
++ Wolfram Language — this is available for free on the Raspberry Pi as part of NOOBS
 
 --- /collapse ---
 
@@ -33,8 +32,6 @@ title: What you will learn
 + Using buttons to add interactivity
 + Rearranging lists
 + Creating associations between objects
-
-If you have never used the Wolfram Language before, follow [this guide](https://projects.raspberrypi.org/en/projects/getting-started-with-mathematica). You'll need to look at Starting Mathematica and Programming in Mathematica.
 
 --- /collapse ---
 
