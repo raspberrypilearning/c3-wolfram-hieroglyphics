@@ -1,10 +1,9 @@
-## Associating Hieroglyphs with Letters
+## Associating hieroglyphs with letters
 
 --- task ---
-If you have never used the Wolfram Language before, follow [this guide](https://projects.raspberrypi.org/en/projects/getting-started-with-mathematica) to get started and learn to use the tool. You'll need to look at **Starting Mathematica** and **Programming in Mathematica**.
---- /task ---
+If you have never used the Wolfram Language before, follow [this guide to get started](https://projects.raspberrypi.org/en/projects/getting-started-with-mathematica) and learn to use the tool. Look at the sections **Starting Mathematica** and **Programming in Mathematica**. --- /task ---
 
-In order to represent English letters and sounds with hieroglyphs, we need to make an `Association`. An `Association` is a lot like a dictionary or a set of rules.   
+To represent English letters and sounds with hieroglyphs, we need to make an `Association`. An `Association` is like a dictionary or a set of rules.
 
 ```
 practiceAssociation = <|"Mark" -> "English", "Rachel" -> "Science", "Aisha" -> "History", "Omar" -> "Art"|>
@@ -12,9 +11,9 @@ practiceAssociation = <|"Mark" -> "English", "Rachel" -> "Science", "Aisha" -> "
 
 In this example, the students: Mark, Rachel, Aisha, and Omar, are the `Keys`, and their favourite subjects: English, Science, History and Art, are the `Values`. Each `Key` has a `Value`, and you can look up the `Value` for a specific `Key`.
 
-In this example, evaluating `practiceAssociation["Rachel"]` gives the subject "Science".
+In this example, if you evaluate `practiceAssociation["Rachel"]`, you get the subject "Science".
 
-You need to start with an `Association` for letters (the `Keys`) to hieroglyphs (the `Values`). Hieroglyphs represent sounds, so they're not exactly matched to English letters, but they're still fun to experiment with. Copying and pasting the images 26 times to create that association might take a little long though, so we've created a starter file you can use.
+You need to start with an `Association` for letters (the `Keys`) to hieroglyphs (the `Values`). Hieroglyphs represent sounds, so they are not exactly matched to English letters, but they are still fun to use. It would take a long time to copy and paste the 26 images to create that association, so we have created a starter file that you can use.
 
 --- task ---
 
