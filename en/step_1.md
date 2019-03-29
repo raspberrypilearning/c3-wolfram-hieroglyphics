@@ -1,6 +1,6 @@
 ## Introduction
 
-In this project, you will create a keyboard to type in Ancient Egyptian Hieroglyphs.
+In this project, you will create a keyboard to type in ancient Egyptian hieroglyphs.
 
 ### What you will make
 
