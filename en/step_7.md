@@ -1,4 +1,4 @@
-## Challenge: Translating Hieroglyphics to Letters
+## Challenge: Translate hieroglyphs to letters
 
 What about if you wanted to translate hieroglyphs into English text? How could you use the same code to solve the opposite problem?
 
@@ -6,7 +6,7 @@ What about if you wanted to translate hieroglyphs into English text? How could y
 
 ---hint---
 
-Use `AssociationMap[Reverse, egypt]` to reverse the Keys and Values in your `Association`
+Use `AssociationMap[Reverse, egypt]` to reverse the `Key`s and `Value`s in your `Association`.
 
 ---/hint---
 ---hint---
@@ -17,7 +17,7 @@ Call your new, reversed association `egyptReverse`.
 
 ---hint---
 
-Once you have reversed your `Association`, your buttons will automatically use the image of the hieroglyph as the button image.
+Once you have reversed your `Association`, your buttons will automatically show the images of the hieroglyphs.
 
 ---/hint---
 ---/hints---
