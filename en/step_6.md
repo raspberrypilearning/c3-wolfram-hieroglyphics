@@ -1,25 +1,25 @@
-## Improve the Interface
+## Improve the interface
 
-We can construct a nice keyboard layout for our project using `Grid`. Here's an example of `Grid`:
+You can use `Grid` to make a nice keyboard layout for your project. Here is an example of `Grid`:
 
 ![Grid](images/Grid.png)
 
 `Grid` is made up of a list of lists, where each list becomes a row in the grid.
 
 --- task --- 
-Make a `Grid` with three rows. The first row should be the `Dynamic` output of `newWord`. The second row should be the `Table` of buttons which make the keyboard. The third row should be the Clear and Delete buttons we made in the previous step.
+Make a `Grid` with three rows. The first row should be the `Dynamic` output of `newWord`. The second row should be the `Table` of buttons which make the keyboard. The third row should be the "Clear" and "Delete" buttons you made in the previous step.
 
 Draw a box around the `Grid` by setting `Frame` to `True`.
 
 --- hints ---
 --- hint ---
-The basic structure of a Grid with a frame looks like this, with the list of lists defining the rows of the grid.
+The basic structure of a `Grid` with a frame looks like this, with the list of lists defining the rows of the grid.
 ```
 Grid[{{},{},{}}, Frame -> True]
 ```
 --- /hint ---
 --- hint ---
-The code you need for the rows is the following:
+Use this code for the rows:
 
 ```
 Dynamic[Row[newWord]]
@@ -34,7 +34,7 @@ Row[Table[With[{i = i}, Button[i, AppendTo[newWord, egypt[[Key[i]]]]]], {i, Keys
 ```
 --- /hint ---
 --- hint ---
-The finished grid code looks like this:
+This is the finished code for the grid:
 
 ```
 newWord = {};
@@ -50,20 +50,22 @@ Grid[{
 
 ---/task ---
 
-Our keyboard is now functional! Let's make it look more attractive and more useful by adding a title, and improving the placement of the Clear and Delete buttons.
+The keyboard works! Now, add a title and improve the placement of the "Clear" and "Delete" buttons to make the keyboard look nicer and easier to use.
 
-We can span certain elements across the `Grid` using `SpanFromLeft`.
+You can use `SpanFromLeft` to span elements across the `Grid`.
 
 ![Grid Span](images/GridSpan.png)
 
-In our `Grid`, the first two rows have one item, and the third row has two items. If we add `SpanFromLeft` to the first two rows, and add a third, blank, element to the third row, then the Clear and Delete buttons will line up on the left.
+In the `Grid`, the first two rows have one item, and the third row has two items. If you add `SpanFromLeft` to the first two rows, and add a third, blank, element to the third row, then the "Clear" and "Delete" buttons will line up on the left.
 
-We can also add a row at the top of the `Grid` with a title. We can use `Text` and `Style` to make the title look like text and print in a large font size.
+You can also add a row at the top of the `Grid` with a title. You can use `Text` and `Style` to make the title look like text and print in a large font size.
 
 ---task---
-+ Use `SpanFromLeft` to shift the Clear and Delete buttons to the left.
-+ Add a title to the top of the `Grid`.
-+ You can replace all the code you've written (except for the association `egypt`) with your new code.
++ Use `SpanFromLeft` to shift the "Clear" and "Delete" buttons to the left
++ Add a title to the top of the `Grid`
++ Replace all the code you have written (except for the association `egypt`) with your new code
+
+The code will look like this:
 
 ```
 newWord = {};
