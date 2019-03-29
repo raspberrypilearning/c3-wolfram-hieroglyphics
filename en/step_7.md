@@ -1,4 +1,4 @@
-## Challenge: Translate hieroglyphs to letters
+## Challenge: Translate hieroglyphs into letters
 
 What about if you wanted to translate hieroglyphs into English text? How could you use the same code to solve the opposite problem?
 
