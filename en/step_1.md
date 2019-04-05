@@ -1,6 +1,6 @@
 ## Introduction
 
-In this project, you will create a keyboard to type in Ancient Egyptian Hieroglyphs.
+In this project, you will create a keyboard to type in ancient Egyptian hieroglyphs.
 
 ### What you will make
 
@@ -19,7 +19,7 @@ title: What you will need
 
 ### Software
 
-+ Wolfram Language — this is available for free on the Raspberry Pi as part of NOOBS
++ Wolfram Language, available for free on the Raspberry Pi as part of the official operating system, Raspbian
 
 --- /collapse ---
 
@@ -28,10 +28,10 @@ title: What you will need
 title: What you will learn
 ---
 
-+ Using images in your code
-+ Using buttons to add interactivity
-+ Rearranging lists
-+ Creating associations between objects
++ How to use images in your code
++ How to use buttons to add interactivity
++ How to arrange lists
++ How to create associations between objects
 
 --- /collapse ---
 
