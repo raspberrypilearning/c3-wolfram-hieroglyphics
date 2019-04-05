@@ -4,10 +4,7 @@ In this project, you will create a keyboard to type in ancient Egyptian hierogly
 
 ### What you will make
 
-
---- print-only ---
 ![Complete project](images/Complete.png)
---- /print-only ---
 
 --- collapse ---
 ---
