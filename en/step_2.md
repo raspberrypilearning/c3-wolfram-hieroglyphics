@@ -17,7 +17,7 @@ You need to start with an `Association` for letters (the `Keys`) to hieroglyphs 
 
 --- task ---
 
-Download the [starter file](#) and open it in Mathematica.
+Download the [starter file](https://drive.google.com/file/d/1XZjMtjyJvD24fK4JNJnUjB_eA_qpB-wa/view) and open it in Mathematica.
 
 ![An association between hieroglyph images and the latin alphabet](images/association.png)
 
