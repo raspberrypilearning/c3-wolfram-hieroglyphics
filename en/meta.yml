@@ -1,19 +1,21 @@
 ---
 title: Hieroglyphics keyboard
 hero_image: images/banner.png
-description:
+description: 
 version: 4
 listed: true
 copyedit: true
 last_tested: '2018-12-06'
 steps:
 - title: Introduction
-  completion: engaged
 - title: Associate hieroglyphs with letters
 - title: Create keyboard buttons
+  completion:
+  - engaged
 - title: Create the keyboard
 - title: How to clear the output and delete the last value
-  completion: internal
 - title: Improve the interface
+  completion:
+  - internal
 - title: 'Challenge: Translate hieroglyphs into letters'
   challenge: true
